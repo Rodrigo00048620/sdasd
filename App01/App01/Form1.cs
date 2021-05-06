@@ -79,12 +79,19 @@ namespace App01
 
         private void Btn_A_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("a");
+            MessageBox.Show("e");
+            MessageBox.Show("i");
+            MessageBox.Show("o");
+            MessageBox.Show("u");
         }
 
         private void Btn_Ola_Click(object sender, EventArgs e)
         {
-            
+            this.BackColor = Color.Purple;
+            MessageBox.Show("ola");
+            MessageBox.Show("k");
+            MessageBox.Show("ase");
         }
     }
 }
